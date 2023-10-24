@@ -1,0 +1,208 @@
+.sidebar {
+  background-color: black;
+  width: 22%;
+  height: 90%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerBlock {
+  width: 95%;
+  height: 14%;
+  background-color: #121212;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerBlock div {
+  width: 95%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.headerBlock div > span:first-child {
+  margin: 0 20px 0 10px;
+}
+
+.headerBlock div > span:last-child {
+  font-weight: bold;
+}
+
+.headerBlock div:last-child {
+  color: #a7a7a7;
+}
+
+.headerBlock div:last-child:hover {
+  color: white;
+}
+
+/* SLIDER CSS START HERE */
+
+.sliderBlock {
+  width: 95%;
+  height: 45%;
+  background-color: #121212;
+  border-radius: 5px;
+}
+
+.sliderBlock > aside:first-child {
+  width: 95%;
+  height: 20%;
+  color: white;
+  font-weight: 600;
+  /* border: 2px solid red; */
+  padding: 15px;
+  position: relative;
+  color: #a7a7a7;
+}
+
+.sliderBlock > aside:first-child:hover {
+    color: white;
+}
+
+.sliderBlock > aside:first-child > span:first-child {
+    margin-right: 20px;
+}
+
+.sliderBlock > aside:first-child > button {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: #a7a7a7;   
+}
+
+.sliderBlock > aside:last-child {
+  width: 100%;
+  height: 80%;
+  /* border: 2px solid red; */
+  overflow: hidden;
+}
+
+.sliderBlock > aside:last-child:hover {
+  overflow-y: scroll;
+}
+
+.sliderBlock > aside:last-child::-webkit-scrollbar {
+  width: 12px;  
+}
+
+.sliderBlock > aside:last-child::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sliderBlock > aside:last-child::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 100%, 0.3);
+}
+
+.sliderBlock > aside:last-child::-webkit-scrollbar-thumb:hover {
+  background: #a3a2a2;
+  opacity: 0.4;
+}
+
+/* .sliderScroll {
+  width: 20%;
+  height: 32.5%;
+  border: 2px solid red;
+  position: absolute;
+} */
+
+.sliderBlock > aside:last-child > div {
+  width: 285px;
+  height: 140px;
+  margin: 10px auto;
+  /* border: 2px solid red; */
+  background-color: #242424;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 15px;
+}
+
+.sliderBlock > aside:last-child > div > p:first-child {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sliderBlock > aside:last-child > div > p:last-of-type {
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.sliderBlock > aside:last-child > div > button {
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 500px;
+  width: 150px;
+  padding: 5px 10px;
+}
+
+.sliderBlock > aside:last-child > div > button:hover {
+  width: 153px;
+  height: 28px;
+}
+
+.sliderBlock > aside:last-child > div > button > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* FOOTER BLOCK */
+
+.footerBlock {
+  width: 95%;
+  height: 35%;
+  background-color: #121212;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.footerBlock > aside:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 15px;
+}
+
+.footerBlock div {
+  font-size: 0.6875rem;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+
+.footerBlock a {
+  text-decoration: none;
+  color: #a7a7a7;;
+}
+
+.footerBlock > aside:last-child {
+  margin-top: 20px;
+}
+
+.footerBlock button {
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 500px;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #a7a7a7;
+}
+
+.footerBlock button:hover {
+    border: 1px solid white;
+}
+
+.footerBlock button span {
+  margin: 0 5px;
+}
